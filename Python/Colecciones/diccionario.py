@@ -48,3 +48,21 @@ diccionario.clear()
 print(diccionario)  # {}
 
 del diccionario
+
+
+diccionarioNuevo = {
+    'Azul': 'Blue',
+    'Rojo': 'Red',
+    'Verde': 'Green',
+    'Amarillo': 'Yellow'
+    }
+print(diccionarioNuevo)
+del diccionarioNuevo['Azul']
+print(diccionarioNuevo)
+
+# los diccionarios son mutables, es decir, se pueden modificar y pueden contener cualquier tipo de dato
+# los diccionarios son desordenados, es decir, no se puede acceder a sus elementos por indice, son indexados, se puede acceder a sus elementos por clave
+
+diccionario2 = {'Gianni': {'Edad':43, 'Altura': 1.79}, 'Milan': [8, 1.37], 'Astor':[13, 1.55]} # diccionario anidado con listas y diccionarios
+
+
