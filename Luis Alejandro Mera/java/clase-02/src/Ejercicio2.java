@@ -24,6 +24,7 @@ public class Ejercicio2 {
 
         // Con JOptionpane
 
+
         numero = Integer.parseInt(JOptionPane.showInputDialog("Digite un número: "));
         while (numero != 0) {
             if (numero > 0) {
