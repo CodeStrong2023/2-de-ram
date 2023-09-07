@@ -30,3 +30,8 @@ print(cocina_tupla)
 # Eliminar una tupla 
 
 # del cocina
+
+elementos = (3, "Luis", [1,2,3])
+
+# Buscar un elemento en una tupla 
+print("Luis" in elementos)
