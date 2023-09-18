@@ -25,3 +25,7 @@ for jugador in seleccionArgentina.values():
   print(jugador['Nombre'])
 for jugador in seleccionArgentina.values():
   print(jugador['Posicion'])
+
+
+for i in seleccionArgentina:
+  print(f'{i} -> {seleccionArgentina[i]}')
