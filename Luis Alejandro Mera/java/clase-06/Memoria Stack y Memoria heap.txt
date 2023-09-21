@@ -1,0 +1,4 @@
+
+Memoria heap: Se utiliza para almacenar un objeto o los atributos
+
+Memoria stack: Solo almacena la referencia del objeto de las variables locales
