@@ -43,3 +43,19 @@ class Persona {
 
 console.log(Persona);
 
+//Undefined
+
+var x;
+console.log(x);
+
+//null Significa ausencia de un valor
+var y= null; //null no es un tipo de dato pero su origen es object
+
+//Tipo de dato array y Empty String
+
+var autos = ['Citroen', 'Audi', 'Ford'];
+console.log(autos);
+
+var z= '';
+console.log(z);
+console.log(z);
