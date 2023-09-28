@@ -1,4 +1,4 @@
-public class EjercicioCicloWhile01 {
+public class EjercicioCicloWhile {
     public static void main(String[] args) {
         var conteo= 0;
         while (conteo <3){
@@ -11,9 +11,7 @@ var contador= 0;
             contador++;
         }while (contador<=7);
 
-        for(var contando=0; contando<7; contando++){
-            System.out.println("Contando= "+ contando);
-        }
+
     }
 }
 
