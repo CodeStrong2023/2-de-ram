@@ -12,7 +12,18 @@ public class Clase3 {
         int numero;
         System.out.println("Digite un numero: ");
         numero = Integer.parseInt(sc.nextLine());
+        while(numero !=0){
+            if(numero % 2 == 0){
+                System.out.println("El numero ingresado " + numero + " es par");
+            }
+            else{
+                System.out.println("El numero ingresado "+numero+ " es impar");
+            }
+            System.out.println("Digite otro numero");
+            numero = Integer.parseInt(sc.nextLine());
         
+        }
+        System.out.println("El numero ingresado es " + numero + " finaliza el programa");
         
     }
     
