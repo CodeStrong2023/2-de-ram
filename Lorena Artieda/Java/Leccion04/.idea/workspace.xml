@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6edd968-9291-45d8-b9d1-62b2d54e909a" name="Changes" comment="" />
+    <list default="true" id="a6edd968-9291-45d8-b9d1-62b2d54e909a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Clase02/EjerciciosCiclos/src/Ejercicio07.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase02/EjerciciosCiclos/src/Ejercicio07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClasesYobjetos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClasesYobjetos/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +16,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2WDfoKh8MWTlbWJy6GU9gx0lq7g" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,6 +30,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "Lorena-Artieda",
+    "last_opened_file_path": "C:/Users/Lorena/Documents/TecnicaturaGit/2-de-ram/Lorena Artieda/Java/Leccion04",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -36,6 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1696272246115</updated>
       <workItem from="1696272247109" duration="247000" />
+      <workItem from="1696441900201" duration="351000" />
     </task>
     <servers />
   </component>

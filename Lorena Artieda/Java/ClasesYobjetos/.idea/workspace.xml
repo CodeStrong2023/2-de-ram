@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89ea4553-2eb0-4478-bedc-86f64d261371" name="Changes" comment="" />
+    <list default="true" id="89ea4553-2eb0-4478-bedc-86f64d261371" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Clase02/EjerciciosCiclos/src/Ejercicio07.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase02/EjerciciosCiclos/src/Ejercicio07.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +12,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2WDd5kCOJ7UOK9TiwGLyAQdgwoj" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,6 +26,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "Lorena-Artieda",
+    "last_opened_file_path": "C:/Users/Lorena/Documents/TecnicaturaGit/2-de-ram/Lorena Artieda/Java/Leccion04",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -36,6 +39,7 @@
       <option name="presentableId" value="Default" />
       <updated>1696270905729</updated>
       <workItem from="1696270906747" duration="220000" />
+      <workItem from="1696441847691" duration="51000" />
     </task>
     <servers />
   </component>

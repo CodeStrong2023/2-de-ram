@@ -10,6 +10,17 @@ public class Aritmetica {
         int resultado= a + b;
         System.out.println("resultado: "+ resultado);
     }
+    public int sumarConRetorno(){
+        int resultado= a + b;
+        return a + b;
+    }
+
+    public int sumarConArgumentos(int argA, int argB){
+        this.a= argA;
+        this.b=argB;
+        //return a+b;
+        return sumarConRetorno(); //NO se recomienda
+    }
 
 
 }
