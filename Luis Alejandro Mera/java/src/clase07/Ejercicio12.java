@@ -19,6 +19,6 @@ public class Ejercicio12 {
         for (int i = 1; i < numero; i++) {
             factorial *= i;
         }
-        JOptionPane.showMessageDialog(null,"El factorial del número ingresado es: " + factorial);
+        JOptionPane.showMessageDialog(null, "El factorial del número ingresado es: " + factorial);
     }
 }
