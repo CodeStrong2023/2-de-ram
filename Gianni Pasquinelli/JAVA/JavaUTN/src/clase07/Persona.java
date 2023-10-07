@@ -2,9 +2,9 @@ package clase07;
 
 public class Persona {
   public static void main(String[] args) {
-  String nombre;
-  String apellido;
-  Persona(String nombre, String apellido){
+  String nombre = null;
+  String apellido = null;
+  Persona(String nombre, String apellido) {
     super();
     //Imprimir imprimir = new Imprimir();
     new Imprimir().imprimir(this);
