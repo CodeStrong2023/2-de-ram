@@ -81,3 +81,7 @@ print(cola)
 seRetira = cola.pop(0)
 print(f'atendido {seRetira}')
 print(cola)
+
+# mostrar como recorrer un diccionario con el ciclo for
+for i in seleccionArgentina:
+    print(f'{i}->{seleccionArgentina[i]}')
