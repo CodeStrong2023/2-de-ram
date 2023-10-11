@@ -11,7 +11,22 @@ public class Ejercicio5 {
         Scanner sc = new Scanner(System.in);
         int numero, aleatorio, conteo = 0;
         aleatorio = (int)(Math.random()*100); //ESto genera un numero aleatorio
-        
+        do{
+            System.out.println("Digite un numero: ");
+            numero = Integer.parseInt(sc.nextLine());
+            if(numero < aleatorio){
+                System.out.println("Digite un numero mayor");
+            }
+            else if(numero > aleatorio){
+                System.out.println("Digite un numero menor");
+            }
+            else{
+                System.out.println("Has adivinado el numero");
+            
+            }
+            conteo ++;
+        }while(numero != aleatorio);
+        System.out.println("Adivinaste el numero en: " + conteo + " intentos");
         
     }
 
