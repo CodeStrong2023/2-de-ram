@@ -10,3 +10,4 @@ def multiplicar_valores(*numeros):
     return resultado
 
 print(multiplicar_valores(3,5,15,50,4))
+

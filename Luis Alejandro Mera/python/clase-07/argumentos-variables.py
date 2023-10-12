@@ -25,3 +25,5 @@ desplegar_nombres((20,30,50,3,3))
 # Convertir los argumentos en lista iterables en caso de no tener un arreglo para pasar
 desplegar_nombres([20,30,50,3,3])
 
+
+
