@@ -8,6 +8,15 @@ public class aritmetica {
         int resultado = a + b;
         System.out.println("resultado = " + resultado);
     }
+    // El constructor es un método especial
+    public aritmetica(){
+        System.out.println("Se está ejecutando el contructor 1");
+    }
+    public aritmetica(int a, int b){
+        this.a = a;
+        this.b = b;
+        System.out.println("Se está ejecutando el constructor 2");
+    }
     public int sumarConRetorno(){
     return a + b;
     }
