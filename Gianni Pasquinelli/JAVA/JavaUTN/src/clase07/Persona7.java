@@ -1,6 +1,7 @@
+/*
 package clase07;
 
-public class Persona {
+public class Persona7 {
   public static void main(String[] args) {
   String nombre = null;
   String apellido = null;
@@ -10,10 +11,10 @@ public class Persona {
     new Imprimir().imprimir(this);
     this.nombre = nombre;
     this.apellido = apellido;
-    System.out.println("this = " + this);
+    System.out.println("this = " + nombre);
   }
 
-  Persona persona = new Persona("Gianni", "Pasquinelli");
+  Persona7 persona = new Persona7("Gianni", "Pasquinelli");
 
 }
 class Imprimir {
@@ -21,9 +22,10 @@ class Imprimir {
     super();
   }
 
-  public void imprimir(Persona persona) {
+  public void imprimir(Persona7 persona) {
     System.out.println("persona = " + persona);
     System.out.println("this = " + this);
   }
 }
 }
+*/
