@@ -1,9 +1,9 @@
 package clases;
 
-public class persona {
+public class Persona {
     // Atributtos de la clase
-    String nombre;
-    String apellido;
+    public String nombre;
+    public String apellido;
     // Métodos de la clase
     public void obtenerInformacion(){
         System.out.println("Nombre = " + nombre);
