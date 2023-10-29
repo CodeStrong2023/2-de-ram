@@ -195,6 +195,111 @@ tupla= (4,'Hola',6.78,[1,2,78], 4, 'Hola')
 print(tupla)
 print(4 in tupla)#Accion Booleanda
 
+#Repaso de set o conjunto
+#Para definir un conjunto
+conjunto= set() #Unica manera de inicializarlo vacio
+conjunto1 = {'bye',}
+conjunto.add(7)
+conjunto.add('Hola')
+print(conjunto1)
+conjunto1.add(9)
+print(conjunto1)
+
+print(3 not in conjunto1) #Preguntamos si el numero 3 no esta en el conjunto
+print(conjunto1==conjunto)
+
+#Operaciones con conjuntos
+conjunto3= conjunto | conjunto1
+print(conjunto3)
+conjunto3 = conjunto & conjunto1 # Elementos en comun
+print(conjunto3)
+conjunto3 = conjunto1 - conjunto
+print(conjunto3)
+
+conjunto3 = conjunto ^ conjunto1 #Elementos q no comparten los conjuntos
+print(conjunto3)
+
+conjunto3 = conjunto | conjunto1
+print(conjunto.issubset(conjunto3))#Aqui preguntamos si un conjunto es un subconjunto dentro de otro
+
+
+print(conjunto3.issuperset(conjunto1))
+print(conjunto3.issuperset(conjunto))
+print(conjunto.issuperset(conjunto1))
+
+#Como saber si ambos conjuntos son disconexos. es si no comparten elementos
+print((conjunto1.isdisjoint(conjunto)))#No hay cosas en comun
+
+#Convertir un conjunto totalmente en inmutable
+conjunto1= frozenset
+
+#Repaso de diccionarios
+
+diccionarioNuevo = {'Azul':'Blue','Rojo':'Red','Verde':'Green','Negro':'Black'}
+print(diccionarioNuevo)
+
+#Como eliminar
+del(diccionarioNuevo['Azul'])
+#Los diccionarios pueden almacenar difrentes tipos de datos
+diccionario2 ={'Ariel':{'Edad': 40, 'Altura': 1.83},'Osvaldo':[45,1.85], 'Natalia': [35, 1.67]}
+print(diccionario2)
+
+seleccionArgentina={
+    10 :{'Nombre': 'Lione Messi', 'Edad': 35 ,'Altura': 1.70, 'Precio': '50 millones', 'Posicion': 'Extremo izquierdo'},
+    11 :{'Nombre': 'Angel Di Maria', 'Edad': 34 ,'Altura': 1.80, 'Precio': '12 millones', 'Posicion': 'Extremo derecho'},
+    24 :{'Nombre': 'Paulo Dybala', 'Edad': 28 ,'Altura': 1.77, 'Precio': '35 millones', 'Posicion': 'Medio campo'},
+    19 :{'Nombre': 'Nicolas Otamendo', 'Edad': 34 ,'Altura': 1.83, 'Precio': '3.5 millones', 'Posicion': 'Extremo'},
+     1 :{'Nombre': 'Franco Armani', 'Edad': 35 ,'Altura': 1.89, 'Precio': '3.5 millones', 'Posicion': 'Arqueroo'}
+}
+
+for llave, valor in seleccionArgentina.items():
+    print(llave,valor)
+
+#Como tarea agregar por lo menos 4 jugadores mas al diccionario seleccionArgentina
+print('Tenemos cargados en el diccionario la cantidad de jugadores: ', end= ' ')
+print(len(seleccionArgentina))
+
+#Pilas usando listas
+pila=[1,2,3]
+
+#Agregamos elementos a la pila por el final
+pila.append(4)
+pila.append(5)
+print(pila)
+
+#Sacando elementos por el final
+elentoBorrado = pila.pop()
+print(f'La pila ahora quedo asi: {pila}')
+
+#Colas con listas
+#Estructura de datos de tipo fifo(first input/ first output)
+cola = ['Ariel', 'Osvaldo', 'Liliana', 'Pilar']
+cola.append('Natalia')
+cola.append('Jose')
+print(cola)
+
+#Sacamos elementos de la cola
+seRetira= cola.pop(0)
+print(f'Atendido el cliente: {seRetira}')
+print(cola)
+seRetira= cola.pop(0)
+print(f'Atendido el cliente: {seRetira}')
+print(cola)
+seRetira= cola.pop(0)
+print(f'Atendido el cliente: {seRetira}')
+print(cola)
+seRetira= cola.pop(0)
+print(f'Atendido el cliente: {seRetira}')
+print(cola)
+seRetira= cola.pop(0)
+print(f'Atendido el cliente: {seRetira}')
+print(cola)
+
+
+
+
+
+
 
 
 
