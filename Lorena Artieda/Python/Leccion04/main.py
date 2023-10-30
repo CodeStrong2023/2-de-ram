@@ -247,7 +247,7 @@ print(diccionario2)
 seleccionArgentina={
     10 :{'Nombre': 'Lione Messi', 'Edad': 35 ,'Altura': 1.70, 'Precio': '50 millones', 'Posicion': 'Extremo izquierdo'},
     11 :{'Nombre': 'Angel Di Maria', 'Edad': 34 ,'Altura': 1.80, 'Precio': '12 millones', 'Posicion': 'Extremo derecho'},
-    24 :{'Nombre': 'Paulo Dybala', 'Edad': 28 ,'Altura': 1.77, 'Precio': '35 millones', 'Posicion': 'Medio campo'},
+    21 :{'Nombre': 'Paulo Dybala', 'Edad': 28 ,'Altura': 1.77, 'Precio': '35 millones', 'Posicion': 'Medio campo'},
     19 :{'Nombre': 'Nicolas Otamendo', 'Edad': 34 ,'Altura': 1.83, 'Precio': '3.5 millones', 'Posicion': 'Extremo'},
      1 :{'Nombre': 'Franco Armani', 'Edad': 35 ,'Altura': 1.89, 'Precio': '3.5 millones', 'Posicion': 'Arqueroo'}
 }
@@ -294,6 +294,9 @@ print(cola)
 seRetira= cola.pop(0)
 print(f'Atendido el cliente: {seRetira}')
 print(cola)
+
+for i in seleccionArgentina:
+    print(f'{i}->{seleccionArgentina[i]}')
 
 
 
