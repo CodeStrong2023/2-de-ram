@@ -13,6 +13,7 @@ class Persona:
             f"Nombre: {self.nombre}, Apellido: {self.apellido}, DNI: {self._dni} , Edad: {self.edad}, Dirección: {self.args}, Datos Imporatnes: {self.kwargs}")
 
 
+
 persona1 = Persona("Juan", "Perez", 3423332, 34)  # Instanciamos la clase
 
 persona2 = Persona("Julio", "Triarca", 44534354, 44)
