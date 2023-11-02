@@ -13,3 +13,16 @@ console.log(juntos);
 
 nombre += apellido;
 console.log(nombre)
+
+let x,y; // crear variables en una misma linea
+x = 17, y = 21; // asignar varias variables en una sola linea
+let z = x + y;
+console.log(z)
+
+let _1num = 31;
+let rompiendo = "rompe";
+
+console.log(_1num)
+console.log(rompiendo)
+
+
