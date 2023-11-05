@@ -84,3 +84,46 @@ listarNombres("Lucas", "Jose", "Claudia", "Rosa", "Maria")
 print("Separo las dos funciones")
 
 listarNombres("Marcos", "Daniel", "Marcela", "Romina", "Carlos")
+
+
+def listarTerminos(**terminos):
+    for key, value in terminos.items():
+        print(f"{key} : {value}")
+
+
+listarTerminos()
+listarTerminos(IDE="Integrated Develoment Enviorment", PK="Primary Key")
+listarTerminos(name="Lorena")
+
+
+# Función que itere listas
+
+def desplegarNombres(nombres):
+    for nombre in nombres:
+        print(nombre)
+
+
+nombres = ["Maximo", "Marcos", "Martin"]
+
+desplegarNombres(nombres)
+
+# Convertir los argumentos en tuplas iterables en caso de no tener un arreglo para pasar
+desplegarNombres((23, 35, 65, 2, 2))
+
+# Convertir los argumentos en lista iterables en caso de no tener un arreglo para pasar
+desplegarNombres([23, 35, 65, 2, 2])
+
+
+# Funciones recursivas
+
+def factorial(number):
+    if number == 1:
+        return 1
+    else:
+        return number * factorial(number - 1)
+
+number_input = int(input("Ingrese un número para calcular el factorial: "))
+
+result = factorial(number_input)
+
+print(f"El factorial del número {number_input} es: {result}")
