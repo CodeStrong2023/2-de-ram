@@ -1,4 +1,4 @@
-var name = "Luis";
+var name = "Alan";
 console.log(name);
 console.log(typeof name);
 name = 3;
@@ -6,8 +6,8 @@ console.log(name);
 console.log(typeof name);
 
 var objeto = {
-  nombre: "Luis",
-  apellido: "Mera",
+  nombre: "Alan",
+  apellido: "Pesalaccia",
   telefono: "21321",
 };
 
