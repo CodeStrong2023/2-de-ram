@@ -53,8 +53,8 @@ let edad1 = Number(miNumero); // Función Number() tranforma los string a tipo n
 console.log(typeof edad);
 
 if(edad >= 18) {
-    console.log("Puede votar");
-} else {
+        console.log("Puede votar");
+    } else {
     console.log("No puede votar");
 }
 
