@@ -1,38 +1,31 @@
 package domain;
 
 public class Persona {
-    //atributos
+    //Atributos de herencia
     protected String nombre;
     protected char genero;
     protected int edad;
-    protected String dirreccion;
+    protected String direccion;
 
-    //Constructor
+    //Constructor vacio: este es para crear objetos sin necesidad de inicializar
+    // los atributos de la clase
     public Persona(){
 
     }
 
     public Persona(String nombre){
-        this.nombre = nombre;
+        this.nombre= nombre;
     }
 
-    public Persona(String nombre, char genero, int edad, String dirreccion) {
+    public Persona(String nombre, char genero, int edad, String direccion) {
         this.nombre = nombre;
         this.genero = genero;
         this.edad = edad;
-        this.dirreccion = dirreccion;
-    }
-
-    public String getDirreccion() {
-        return this.dirreccion;
-    }
-
-    public void setDirreccion(String dirreccion) {
-        this.dirreccion = dirreccion;
+        this.direccion = direccion;
     }
 
     public String getNombre() {
-        return this.nombre;
+        return nombre;
     }
 
     public void setNombre(String nombre) {
@@ -40,7 +33,7 @@ public class Persona {
     }
 
     public char getGenero() {
-        return this.genero;
+        return genero;
     }
 
     public void setGenero(char genero) {
@@ -48,16 +41,28 @@ public class Persona {
     }
 
     public int getEdad() {
-        return this.edad;
+        return edad;
     }
 
     public void setEdad(int edad) {
         this.edad = edad;
     }
 
-    @Override
-    public String toString() {
-        return "Persona{" + "nombre=" + nombre + ", genero=" + genero + ", edad=" + edad + ", dirreccion=" + dirreccion + '}';
+    public String getDireccion() {
+        return direccion;
     }
 
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
+
+    @Override
+    public String toString() {
+        return "Persona{" +
+                "nombre='" + nombre + '\'' +
+                ", genero=" + genero +
+                ", edad=" + edad +
+                ", direccion='" + direccion + '\'' +
+                '}';
+    }
 }
