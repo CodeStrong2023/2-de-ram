@@ -36,5 +36,23 @@ operador de aumento
 
 decremento 
 --
+// Pre decremeto (JavaScript)
+Ejemplo: let z = --a
+// Pos decremeto (JavaScript)
+Ejemplo: let z = a--
+
+Operador Distinto, Diferente (retornan un tipo booleano)
+!= Comprueba el valor sin revisar el tipo 
+!== Comprueba el valor y también el tipo 
+
+Operadores relacionales
+<
+>
+<=
+>=
+
+Operadores Lógicos
+&& And
+|| Or
 
 
