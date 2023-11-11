@@ -1,0 +1,66 @@
+Sintaxis simires entre Java y JavaScript
+Operadores simplificados
++=
+-=
+*=
+/=
+
+Operadores Aritmeticos
++
+-
+*
+/
+
+// JavaScript
+% // Resto
+** // Exponente
+
+Operadores de asignación
+=
+
+Operadores de comparación (retornan un tipo booleano)
+== Revisan el valor sin importart el tipo de dato
+=== Revisa el valor y el tipo (exclusivo de JavaScript)
+
+Documentar
+// = Para una linea de comentarios 
+/* */ = Para multiples lineas de comentarios
+
+Secuencia de escape
+\' = Mostrar una comilla simple dentro de una cadena de información 
+\" = Mostrar una comilla doble dentro de una cadena de información
+\\ = Es para mostrar un back slash
+\n = Es un salto de linea
+\r = Retorno
+\t = Tabulación
+\b = Retroceso
+\f = Salto de página
+
+Operador de aumento
+++
+// Pre incremento (JavaScript)
+Ejemplo: let z = ++a
+// Pos incremento (JavaScript)
+Ejemplo: let z = a++
+
+Operador de decremeto 
+--
+// Pre decremeto (JavaScript)
+Ejemplo: let z = --a
+// Pos decremeto (JavaScript)
+Ejemplo: let z = a--
+
+Operador Distinto, Diferente (retornan un tipo booleano)
+!= Comprueba el valor sin revisar el tipo 
+!== Comprueba el valor y también el tipo 
+
+Operadores relacionales
+<
+>
+<=
+>=
+
+Operadores Lógicos
+&& And
+|| Or
+
